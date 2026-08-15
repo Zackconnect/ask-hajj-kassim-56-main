@@ -4,6 +4,8 @@ import { useState, type ReactNode } from "react";
 import { LANGUAGES, useI18n } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
 
+// Force Vercel redeploy
+
 const NAV = [
   { to: "/", key: "nav.home" },
   { to: "/quran", key: "nav.quran" },
